@@ -1,5 +1,5 @@
 output "mysql-instance" {
-  value = aws_instance.mysql-instance.public_ip
+  value = aws_instance.reviews-instance.public_ip
 }
 
 output "rds" {
