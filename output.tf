@@ -1,4 +1,4 @@
-output "mysql-instance" {
+output "reviews-instance" {
   value = aws_instance.reviews-instance.public_ip
 }
 
